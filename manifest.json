@@ -1,0 +1,30 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "MKF",
+    "short_name": "MKF",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "index.html",
+    "background_color": "#000000",
+    "theme_color": "#E30D00",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "Images/192px.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "Images/512px.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "url": "index.html",
+    "screenshots": []
+}
