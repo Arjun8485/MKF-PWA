@@ -9,8 +9,7 @@
     "background_color": "#000000",
     "theme_color": "#E30D00",
     "description": "",
-    "orientation": "any",
-    "related_applications": [],
+    "orientation": "portrait",
     "prefer_related_applications": false,
     "icons": [
         {
