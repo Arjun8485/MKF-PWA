@@ -287,5 +287,14 @@ a {
             const el = document.createElement('pwa-update');
             document.body.appendChild(el);
         </script>
+		            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('pwabuilder-sw.js').then(reg => {
+                        console.log(registered);
+                    }).catch(err => {
+                        console.log('failed');
+                    });
+                });
+            }
 </body>
 </html>
